@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 import overlay from "../img/overlay-bg.jpg"
 
-export default function Contact() {
-    return (
-        <section className="paralax-mf footer-paralax bg-image route intro route bg-image" style={{ backgroundImage: `url(${overlay})` }}>
+export default class Contact extends Component {
+    render() {
+        return (
+            <section className="paralax-mf footer-paralax bg-image route intro route bg-image" style={{ backgroundImage: `url(${overlay})` }}>
             <div className="overlay-mf pt-4"></div>
             <div className="container">
                 <div className="row">
@@ -11,7 +12,7 @@ export default function Contact() {
                         <div className="contact-mf">
                             <div id="contact" className="box-shadow-full">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    {/* <div className="col-md-6">
                                         <div className="title-box-2">
                                             <h5 className="title-left">
                                                 Send Message Us
@@ -55,8 +56,8 @@ export default function Contact() {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
-                                    <div className="col-md-6">
+                                    </div> */}
+                                    <div className="col-md-12">
                                         <div className="title-box-2 pt-4 pt-md-0">
                                             <h5 className="title-left">
                                                 Get in Touch
@@ -64,23 +65,20 @@ export default function Contact() {
                                         </div>
                                         <div className="more-info">
                                             <p className="lead text-secondary">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                                                expedita aperiam aliquid at.
-                                                Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                                                mollitia inventore?
+                                                You can get in touch via phone, email or any of my social media links below
                                             </p>
                                             <ul className="list-ico text-secondary">
-                                                <li><span className="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                                <li><span className="ion-ios-telephone"></span> (617) 557-0089</li>
-                                                <li><span className="ion-email"></span> contact@example.com</li>
+                                                <li><span className="ion-ios-location"></span> Iyanoworo, Oworonshoki Lagos, Nigeria. 104221</li>
+                                                <li><span className="ion-ios-telephone"></span> +234 8136293752</li>
+                                                <li><span className="ion-email"></span>otokinaodafe@gmail.com</li>
                                             </ul>
                                         </div>
                                         <div className="socials">
                                             <ul>
-                                                <li><a href=""><span className="ico-circle"><i className="ion-social-facebook"></i></span></a></li>
-                                                <li><a href=""><span className="ico-circle"><i className="ion-social-instagram"></i></span></a></li>
-                                                <li><a href=""><span className="ico-circle"><i className="ion-social-twitter"></i></span></a></li>
-                                                <li><a href=""><span className="ico-circle"><i className="ion-social-pinterest"></i></span></a></li>
+                                                <li><a href="https://facebook.com/godwin.odafe" target="_blank"><span className="ico-circle"><i className="ion-social-facebook"></i></span></a></li>                                                
+                                                <li><a  href="https://www.linkedin.com/in/godwin-otokina-631775161/" target="_blank"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
+                                                <li><a  href="https://twitter.com/GodwinOtokina" target="_blank"><span className="ico-circle"><i className="ion-social-twitter"></i></span></a></li>
+                                                <li><a  href="https://www.instagram.com/_wincodes/" target="_blank"><span className="ico-circle"><i className="ion-social-instagram"></i></span></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -91,5 +89,9 @@ export default function Contact() {
                 </div>
             </div>
         </section>
-    )
+    
+        )
+    }
 }
+
+

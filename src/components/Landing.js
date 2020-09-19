@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 
 import introBg from "../img/counters-bg.jpg"
@@ -14,8 +14,7 @@ import godwin2 from "../img/godwin-2.jpg"
 
 import Skills from "./Skills"
 
-class Landing extends Component {
-  render() {
+function Landing () {
     return (
       <div>
 
@@ -236,7 +235,6 @@ class Landing extends Component {
         </main>
       </div>
     )
-  }
 }
 
 export default Landing

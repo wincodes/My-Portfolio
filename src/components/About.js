@@ -4,7 +4,7 @@ import overlay from "../img/intro-bg.jpg"
 import Skills from "./Skills"
 import godwinBeach from "../img/godwin-beach.png"
 
-export default function About() {
+function About() {
     return (
         <div>
             <section id="about" className="paralax-mf footer-paralax bg-image route intro route bg-image" style={{ backgroundImage: `url(${overlay})` }}>
@@ -87,3 +87,5 @@ export default function About() {
         </div>
     )
 }
+
+export default About

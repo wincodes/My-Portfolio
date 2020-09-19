@@ -1,7 +1,7 @@
 import React from 'react'
 import overlay from "../img/overlay-bg.jpg"
 
-export default function Skills() {
+function Skills() {
     return (
         <section id="service" className="services-mf pt-5 route" style={{ backgroundImage: `url(${overlay})` }}>
               <div className="container">
@@ -112,3 +112,5 @@ export default function Skills() {
             </section>
     )
 }
+
+export default Skills

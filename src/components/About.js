@@ -3,6 +3,7 @@ import overlay from "../img/intro-bg.jpg";
 
 import Skills from "./Skills";
 import godwinBeach from "../img/godwin-beach.png";
+import resume from "../files/godwin-resume.pdf"
 
 const About = () => {
   return (
@@ -104,10 +105,11 @@ const About = () => {
                         <h5 className="title-left">About me </h5>
                       </div>
                       <p className="lead text-secondary">
-                        Software Developer with about 4 Years of
-                        Experience in Designing, Developing, Deploying and Maintaining Full
-                        Stack Web Applications. I have a Firm understanding of the entire software development lifecycle.
-                        I also have Experiece Leading a Team
+                        Software Developer with about 4 Years of Experience in
+                        Designing, Developing, Deploying and Maintaining Full
+                        Stack Web Applications. I have a Firm understanding of
+                        the entire software development lifecycle. I also have
+                        Experiece Leading a Team
                       </p>
                       <hr />
                       <p className="lead text-secondary">
@@ -143,7 +145,13 @@ const About = () => {
                       </p>
 
                       <div className="py-3">
-                          <button className="btn btn-info"> Download My Resume</button>
+                        <a
+                          className="mt-2"
+                          href={resume}
+                          download="Goals Setting Template"
+                        >
+                          <div className="btn btn-info">Download My Resume</div>
+                        </a>
                       </div>
                     </div>
                   </div>

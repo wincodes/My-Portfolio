@@ -2,7 +2,6 @@ import React from "react";
 
 import introBg from "../img/counters-bg.jpg";
 import oneport from "../img/oneport.png";
-import kanban from "../img/kanban.png";
 import medicalconnect from "../img/medicalconnect.png";
 import silos from "../img/silos.png";
 import teamwork from "../img/teamwork.png";

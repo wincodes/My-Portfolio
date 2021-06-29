@@ -4,7 +4,7 @@ import introBg from "../img/counters-bg.jpg";
 import oneport from "../img/oneport.png";
 import medicalconnect from "../img/medicalconnect.png";
 import silos from "../img/silos.png";
-import teamwork from "../img/teamwork.png";
+import afrimart from "../img/afrimart.png";
 import Skills from "./Skills";
 
 const Landing = () => {
@@ -49,11 +49,11 @@ const Landing = () => {
                 <div className="card card-blog">
                   <div className="card-img">
                     <a
-                      href="https://teamwork-frontend.netlify.app/"
+                      href="http://afrimartone.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={teamwork} alt="" className="img-fluid" />
+                      <img src={afrimart} alt="" className="img-fluid" />
                     </a>
                   </div>
                   <div className="card-body">

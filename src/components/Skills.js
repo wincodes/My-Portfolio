@@ -47,7 +47,7 @@ const Skills = () => {
               <div className="service-content">
                 <h2 className="s-title">Backend Web Development</h2>
                 <p className="s-description text-center">
-                  I am also a Well Established Backend Developer. I have solid Experienced
+                  I am also a Well Established Backend Developer. I have solid Experience
                   with Node.js and Express also with Php and Laravel Framework. I also have intermediate 
                   knowledge in C# and .Net Core.
                 </p>

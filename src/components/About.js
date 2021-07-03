@@ -2,7 +2,7 @@ import React from "react";
 import overlay from "../img/intro-bg.jpg";
 
 import Skills from "./Skills";
-import godwinBeach from "../img/godwin-beach.png";
+import godwinBeach from "../img/godwin.jpeg";
 import resume from "../files/godwin-resume.pdf"
 
 const About = () => {
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="skill-mf">
+                    <div className="skill-mf mt-4">
                       <p className="title-s">Top Skills</p>
                       <span>HTML</span> <span className="pull-right">95%</span>
                       <div className="progress">
@@ -105,11 +105,11 @@ const About = () => {
                         <h5 className="title-left">About me </h5>
                       </div>
                       <p className="lead text-secondary">
-                        Software Developer with about 4 Years of Experience in
-                        Designing, Developing, Deploying and Maintaining Full
+                        Software Developer with 4 Years Experience in
+                        Design, Development, Deploying and Maintaining Full
                         Stack Web Applications. I have a Firm understanding of
-                        the entire software development lifecycle. I also have
-                        Experiece Leading a Team
+                        the entire software development lifecycle and I have
+                        Experience Leading a Team
                       </p>
                       <hr />
                       <p className="lead text-secondary">
@@ -119,12 +119,12 @@ const About = () => {
                           <i>Itex Integrated Services </i>{" "}
                         </strong>{" "}
                         <br />
-                        Full Stack Devevloper at{" "}
+                        Full Stack Developer at{" "}
                         <strong>
                           <i>Demz Ananytis </i>
                         </strong>{" "}
                         <br />
-                        Software Devevloper at{" "}
+                        Software Developer at{" "}
                         <strong>
                           <i>Ikooba Technologies </i>
                         </strong>
@@ -136,12 +136,7 @@ const About = () => {
                         <strong>
                           <i>University of Benin </i>
                         </strong>{" "}
-                        | <em>2011 - 2015</em> <br />
-                        Diploma in Web Development |{" "}
-                        <strong>
-                          <i>Open Classrooms </i>
-                        </strong>{" "}
-                        | <em>Jan 2020 - Present</em> <br />
+                        | <em>2011 - 2015</em>
                       </p>
 
                       <div className="py-3">
